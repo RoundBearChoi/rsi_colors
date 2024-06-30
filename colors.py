@@ -10,6 +10,8 @@ from datetime import date
 
 
 def run():
+    print('Hi..')
+
     today = date.today()
     data = yf.download('BTC-USD', start='2015-01-01', end=today)
     print("Today's date: " + str(today))
